@@ -7,6 +7,8 @@ import           Data.ByteString.Streaming (ByteString)
 import qualified Data.ByteString.Streaming as Bytes
 import           Streaming.With
 import           System.FilePath
+import           Prelude ()
+import           Prelude.Compat
 import           Test.Tasty
 import           Test.Tasty.Golden         (findByExtension, goldenVsString)
 

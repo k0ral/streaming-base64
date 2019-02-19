@@ -12,8 +12,9 @@ import qualified Data.ByteString.Streaming as ByteString
 import           Data.Char
 import           Data.Function
 import           Data.Maybe
-import           Data.Semigroup
 import           Data.Word
+import           Prelude ()
+import           Prelude.Compat
 import           Streaming.Prelude         (Of (..), Stream, cons, for, next,
                                             yield)
 import qualified Streaming.Prelude         as Stream
